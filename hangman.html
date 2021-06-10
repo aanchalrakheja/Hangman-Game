@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" type="text/css" href="hangman.css">
+</head>
+<body>
+    <canvas id="hangman">This text will be shown if the browser doesnot support the canvas element</canvas>
+    <div id="main">
+        <button id="hint">HINT</button>
+        <div id="hintText">hello</div>
+        <div id="score">SCORE: <span id="scoreNumber">0</span></div>
+        <div id="lives">LIVES: <span id="livesNumber">10</span></div>
+         <div id="guess">GUESS THE WORD !</div>
+         <div id="word">
+         </div>
+        <div id="keypad">
+        <div class="alphabets">A</div>
+        <div class="alphabets">B</div>
+        <div class="alphabets">C</div>
+        <div class="alphabets">D</div>
+        <div class="alphabets">E</div>
+        <div class="alphabets">F</div>
+        <div class="alphabets">G</div>
+        <div class="alphabets">H</div>
+        <div class="alphabets">I</div>
+        <div class="alphabets">J</div>
+        <div class="alphabets">K</div>
+        <div class="alphabets">L</div>
+        <div class="alphabets">M</div>
+        <div class="alphabets">N</div>
+        <div class="alphabets">O</div>
+        <div class="alphabets">P</div>
+        <div class="alphabets">Q</div>
+        <div class="alphabets">R</div>
+        <div class="alphabets">S</div>
+        <div class="alphabets">T</div>
+        <div class="alphabets">U</div>
+        <div class="alphabets">V</div>
+        <div class="alphabets">W</div>
+        <div class="alphabets">X</div>
+        <div class="alphabets">Y</div>
+        <div class="alphabets">Z</div>
+        </div>
+    </div>
+    <div id="resultPage">
+        <p id="result">You win !!</p>
+        <button id="scoreCard">SCORE :<span id="finalScore">10</span></button>
+        <button id="restart">RESTART</button>
+    </div>
+    <script type="module" src="hangman.js"></script>
+    <script type="module" src="./word.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <title>Hangman</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div id="heading">
+            <div id="one" class="title"></div>
+            <div id="two" class="title"></div>
+            <div id="three" class="title"></div>
+            <div id="four" class="title"></div>
+            <div id="five" class="title"></div>
+            <div id="six" class="title"></div>
+            <div id="seven" class="title"></div>
+        </div>
+        <div id="startButton">
+            <button id="start">START</button>
+            <button id="rules">RULES</button>
+        </div>
+        <div id="rulePage">
+            <div id="ruleHeading">
+            <h3>RULES</h3>
+            </div>
+            <ul>
+                <li>The aim of the player is to guess the word by hit and trial method.</li><br>
+                <li>The player will have to guess a character from the given virtual board. If the character is a part of the word to be guessed, it will be placed at its respective position.</li><br>
+                <li>If the character chosen by the player is not a part of the word to be guessed, the the player will lose a life and the hangman will keep on building.</li><br>
+                <li>The player has 6 lives until the Hangman is completely built</li><br>
+                <li>The player wins if he/she succeeds in guessing the word before losing all 6 lives i.e before the whole hangman is created and fails otherwise.</li><br><br>
+            </ul>
+            <button id="continue">CONTINUE</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
